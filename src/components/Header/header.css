@@ -1,0 +1,19 @@
+header {
+    background: url('../../images//mobile/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: 2px solid red;
+    height: 50vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.nav-list {
+    display: none;
+}
