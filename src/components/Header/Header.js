@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
 import Logo from '../../images/logo.svg';
+import Arrow from '../../images/icon-arrow-down.svg';
 
 const Header = () => {
 	const [activeMenu, setActiveMenu] = useState('false');
@@ -42,8 +43,9 @@ const Header = () => {
 				</div>
 				<div className={activeMenuBg ? 'change-bg' : 'menu-bg'}></div>
 			</nav>
-			<section>
-				<h1>We are creatives</h1>
+			<section className='header-main'>
+				<h1 className='header-headline'>We are creatives</h1>
+				<img src={Arrow} alt='down-arrow' />
 			</section>
 		</header>
 	);
