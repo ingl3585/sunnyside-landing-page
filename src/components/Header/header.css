@@ -32,10 +32,10 @@ nav {
 }
 
 .bar {
+    display: block;
     height: 5px;
     width: 90%;
     background-color: white;
-    display: block;
     border-radius: 5px;
     transition: 0.2s all ease-in-out;
 }
@@ -57,21 +57,30 @@ nav {
 }
 
 .nav-list {
+    display: none;
     position: absolute;
     top: 75px;
-    right: 50px;
+    right: 25px;
     transition: 0.2s all ease-in-out;
-    display: none;
 }
 
 .nav-list li {
     list-style: none;
-    padding: 16px 0;
+    padding: 20px 0;
 }
 
 .nav-list li a {
     color: black;
     text-decoration: none;
+}
+
+.contact-btn {
+    background-color: yellow;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border-radius: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .menu-bg {
@@ -80,17 +89,17 @@ nav {
     right: 30px;
     height: 0;
     width: 0;
-    transition: 0.2s ease-in-out;
     border-radius: 50%;
+    transition: 0.2s ease-in-out;
 }
 
 .change-bg {
     z-index: 1;
     position: absolute;
-    width: 200px;
-    height: 350px;
     top: 0;
     right: 0;
+    height: 350px;
+    width: 200px;
     background-color: white;
     border-radius: 50% 0 0 50%;
 }

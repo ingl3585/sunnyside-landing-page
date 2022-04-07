@@ -24,17 +24,19 @@ const Header = () => {
 						<div className='menu-bar-3 bar'></div>
 					</div>
 					<ul className={`nav-list ${activeNav ? 'change' : ''}`}>
-						<li className='nav-item'>
+						<li>
 							<a href='#'>About</a>
 						</li>
-						<li className='nav-item'>
+						<li>
 							<a href='#'>Services</a>
 						</li>
-						<li className='nav-item'>
+						<li>
 							<a href='#'>Projects</a>
 						</li>
-						<li className='nav-item'>
-							<a href='#'>Contact</a>
+						<li>
+							<a className='contact-btn' href='#'>
+								Contact
+							</a>
 						</li>
 					</ul>
 				</div>
