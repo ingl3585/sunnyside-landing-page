@@ -26,22 +26,22 @@ const Header = () => {
 					</div>
 					<ul className={`nav-links ${activeNavLinks ? 'change-links' : ''}`}>
 						<li>
-							<a className='nav-links-item' href='#'>
+							<a className='nav-links-item' href='#/'>
 								About
 							</a>
 						</li>
 						<li>
-							<a className='nav-links-item' href='#'>
+							<a className='nav-links-item' href='#/'>
 								Services
 							</a>
 						</li>
 						<li>
-							<a className='nav-links-item' href='#'>
+							<a className='nav-links-item' href='#/'>
 								Projects
 							</a>
 						</li>
 						<li>
-							<a className='contact-btn' href='#'>
+							<a className='contact-btn' href='#/'>
 								Contact
 							</a>
 						</li>

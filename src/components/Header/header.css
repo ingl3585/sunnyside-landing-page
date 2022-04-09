@@ -3,7 +3,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 710px;
+    height: 100vh;
+    width: 100vw;
 }
 
 nav {
@@ -102,7 +103,6 @@ nav {
     width: 225px;
     background-color: white;
     border-radius: 110px 0 0 110px;
-    outline: 1px solid hsl(232, 10%, 55%);
     transition: 0.1s all ease-in-out;
 }
 
@@ -119,7 +119,7 @@ nav {
 
 .hero {
     text-align: center;
-    padding-top: 11em;
+    padding-top: 9.5em;
 }
 
 .hero-headline {

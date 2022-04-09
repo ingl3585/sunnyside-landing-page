@@ -12,13 +12,13 @@ const Footer = () => {
 			<img className='footer-logo' src={Logo} alt='footer-logo' />
 			<ul className='footer-links'>
 				<li>
-					<a href='#'>About</a>
+					<a href='#/'>About</a>
 				</li>
 				<li>
-					<a href='#'>Services</a>
+					<a href='#/'>Services</a>
 				</li>
 				<li>
-					<a href='#'>Projects</a>
+					<a href='#/'>Projects</a>
 				</li>
 			</ul>
 			<ul className='social-links'>
