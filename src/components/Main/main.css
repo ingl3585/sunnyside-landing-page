@@ -95,3 +95,15 @@ main .first-section {
     text-align: center;
     gap: 25px;
 }
+
+/* Fourth Section (Mobile) */
+
+.section-four {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.section-four img {
+    width: 50vw;
+}

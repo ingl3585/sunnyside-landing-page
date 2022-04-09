@@ -4,6 +4,10 @@ import Cup from '../../images/mobile/image-stand-out.jpg';
 import Emily from '../../images/image-emily.jpg';
 import Thomas from '../../images/image-thomas.jpg';
 import Jennie from '../../images/image-jennie.jpg';
+import Milk from '../../images/mobile/image-gallery-milkbottles.jpg';
+import Orange from '../../images/mobile/image-gallery-orange.jpg';
+import Cone from '../../images/mobile/image-gallery-cone.jpg';
+import Sugar from '../../images/mobile/image-gallery-sugar-cubes.jpg';
 import './main.css';
 
 const Main = () => {
@@ -93,6 +97,12 @@ const Main = () => {
 						<p>Business Owner</p>
 					</div>
 				</div>
+			</section>
+			<section className='section-four'>
+				<img src={Milk} alt='milk-bottles' />
+				<img src={Orange} alt='gallery-orange' />
+				<img src={Cone} alt='gallery-cone' />
+				<img src={Sugar} alt='gallery-sugar-cubes' />
 			</section>
 		</main>
 	);
