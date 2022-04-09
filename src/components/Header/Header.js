@@ -24,7 +24,7 @@ const Header = () => {
 						<div className='menu-bar-2 bar'></div>
 						<div className='menu-bar-3 bar'></div>
 					</div>
-					<ul className={`nav-links ${activeNavLinks ? 'change' : ''}`}>
+					<ul className={`nav-links ${activeNavLinks ? 'change-links' : ''}`}>
 						<li>
 							<a href='#'>About</a>
 						</li>

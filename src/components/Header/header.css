@@ -61,7 +61,7 @@ nav {
     display: none;
     position: absolute;
     top: 75px;
-    right: 25px;
+    right: 32.5px;
     transition: 0.2s all ease-in-out;
 }
 
@@ -76,9 +76,8 @@ nav {
 }
 
 .contact-btn {
-    background-color: yellow;
-    padding: 0.625em 1.25em;
-    outline: 1px solid black;
+    background-color: #FCD702;
+    padding: 1.15em 1.60em;
     border-radius: 35px;
     text-transform: uppercase;
     cursor: pointer;
@@ -98,8 +97,8 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    height: 45vh;
-    width: 45vw;
+    height: 350px;
+    width: 200px;
     background-color: white;
     border-radius: 110px 0 0 110px;
 }
@@ -108,18 +107,23 @@ nav {
     display: block;
 }
 
-.header-main {
+.change-links {
+    display: block;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 85vh;
-    width: 100vw;
-    gap: 50px;
+    text-align: center;
+}
+
+.header-main {
+    text-align: center;
+    padding-top: 11em;
 }
 
 .header-headline {
     color: white;
     text-transform: uppercase;
-    text-align: center;
+    letter-spacing: 7.5px;
+    font-size: 3rem;
+    padding-bottom: 1.25em;
+    overflow-wrap: break-word;
 }
