@@ -1,10 +1,14 @@
 footer {
-    height: 200px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     background-color: #90D4C5;
+}
+
+.footer-logo {
+    height: 35px;
 }
 
 .footer-links {
@@ -24,7 +28,7 @@ footer {
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 25px;
     list-style: none;
     color: hsl(168, 34%, 41%);
 }

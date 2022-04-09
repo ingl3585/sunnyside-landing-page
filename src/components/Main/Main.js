@@ -45,8 +45,8 @@ const Main = () => {
 						<h2 className='graphic-design-text'>Graphic Design</h2>
 						<p>
 							Great design makes you memorable. We deliver artwork that
-							underscores your brand message and captures potential
-							clients'attention.
+							underscores your brand message and captures potential clients'
+							attention.
 						</p>
 					</div>
 				</div>
@@ -71,8 +71,10 @@ const Main = () => {
 							We put our trust in Sunnyside and they delivered, making sure our
 							needs were met and deadlines were always hit.
 						</p>
-						<h3 className='author'>Emily R.</h3>
-						<p className='author-designation'>Marketing Director</p>
+						<div className='author-section'>
+							<h3 className='author'>Emily R.</h3>
+							<p className='author-designation'>Marketing Director</p>
+						</div>
 					</div>
 				</div>
 				<div className='single-test-card'>
@@ -82,8 +84,10 @@ const Main = () => {
 							Sunnyside's enthusiasm coupled with their keen interest in our
 							brand's success made it a satisfying and enjoyable experience.
 						</p>
-						<h3 className='author'>Thomas S.</h3>
-						<p className='author-designation'>Chief Operating Officer</p>
+						<div className='author-section'>
+							<h3 className='author'>Thomas S.</h3>
+							<p className='author-designation'>Chief Operating Officer</p>
+						</div>
 					</div>
 				</div>
 				<div className='single-test-card'>
@@ -93,8 +97,10 @@ const Main = () => {
 							Incredible end result! Our sales increased over 400% when we
 							worked with Sunnyside. Highly recommended!
 						</p>
-						<h3 className='author'>Jennie F.</h3>
-						<p className='author-designation'>Business Owner</p>
+						<div className='author-section'>
+							<h3 className='author'>Jennie F.</h3>
+							<p className='author-designation'>Business Owner</p>
+						</div>
 					</div>
 				</div>
 			</section>
