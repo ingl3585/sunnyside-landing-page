@@ -57,3 +57,41 @@ main .first-section {
     text-align: center;
     padding: 0 1em 8em 1em;
 }
+
+/* Third Section (Mobile) */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 25px;
+}
+
+.testimonials-header {
+    text-transform: uppercase;
+}
+
+.single-test-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.single-test-card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}

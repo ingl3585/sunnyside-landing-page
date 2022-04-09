@@ -1,12 +1,15 @@
 import React from 'react';
 import Egg from '../../images/mobile/image-transform.jpg';
 import Cup from '../../images/mobile/image-stand-out.jpg';
+import Emily from '../../images/image-emily.jpg';
+import Thomas from '../../images/image-thomas.jpg';
+import Jennie from '../../images/image-jennie.jpg';
 import './main.css';
 
 const Main = () => {
 	return (
 		<main>
-			<section className='first-section'>
+			<section className='section-one'>
 				<div className='col-one'>
 					<img src={Egg} alt='egg' />
 					<div className='col-one-text'>
@@ -50,6 +53,44 @@ const Main = () => {
 							Increase your credibility by getting the most stunning,
 							high-quality photos that improve your business image.
 						</p>
+					</div>
+				</div>
+			</section>
+			<section className='section-three'>
+				<h6 className='testimonials-header'>Client Testimonials</h6>
+				<div className='single-test-card'>
+					<div>
+						<img src={Emily} alt='client-pic' />
+					</div>
+					<div className='card-text'>
+						<p>
+							We put our trust in Sunnyside and they delivered, making sure our
+							needs were met and deadlines were always hit.
+						</p>
+						<h5>Emily R.</h5>
+						<p>Marketing Director</p>
+					</div>
+				</div>
+				<div className='single-test-card'>
+					<img src={Thomas} alt='client-pic' />
+					<div className='card-text'>
+						<p>
+							Sunnyside's enthusiasm coupled with their keen interest in our
+							brand's success made it a satisfying and enjoyable experience.
+						</p>
+						<h5>Thomas S.</h5>
+						<p>Chief Operating Officer</p>
+					</div>
+				</div>
+				<div className='single-test-card'>
+					<img src={Jennie} alt='client-pic' />
+					<div className='card-text'>
+						<p>
+							Incredible end result! Our sales increased over 400% when we
+							worked with Sunnyside. Highly recommended!
+						</p>
+						<h5>Jennie F.</h5>
+						<p>Business Owner</p>
 					</div>
 				</div>
 			</section>
