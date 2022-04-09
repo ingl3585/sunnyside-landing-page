@@ -114,12 +114,12 @@ nav {
     text-align: center;
 }
 
-.header-main {
+.hero {
     text-align: center;
     padding-top: 11em;
 }
 
-.header-headline {
+.hero-headline {
     color: white;
     text-transform: uppercase;
     letter-spacing: 7.5px;

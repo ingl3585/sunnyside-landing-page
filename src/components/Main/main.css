@@ -1,0 +1,59 @@
+/* First Section (Mobile) */
+
+main .first-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 200vh;
+}
+
+.col-one {
+    grid-row: 1/2;
+}
+
+.col-two {
+    grid-row: 2/3;
+}
+
+.col-one img, .col-two img {
+    height: 50vh;
+    width: 100vw;
+}
+
+.col-one-text, .col-two-text {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 50px;
+}
+
+/* Second Section (Mobile) */
+
+.col-three {
+    background: url('../../images/mobile/image-graphic-design.jpg');
+}
+
+.col-four {
+    background: url('../../images/mobile/image-photography.jpg');
+}
+
+.col-three, .col-four {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-three-text, .col-four-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5em;
+    text-align: center;
+    padding: 0 1em 8em 1em;
+}

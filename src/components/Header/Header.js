@@ -43,9 +43,9 @@ const Header = () => {
 				</div>
 				<div className={activeNavBg ? 'change-bg' : 'menu-bg'}></div>
 			</nav>
-			<section className='header-main'>
-				<h1 className='header-headline'>We are creatives</h1>
-				<img src={Arrow} alt='down-arrow' />
+			<section className='hero'>
+				<h1 className='hero-headline'>We are creatives</h1>
+				<img src={Arrow} alt='hero-arrow' />
 			</section>
 		</header>
 	);
