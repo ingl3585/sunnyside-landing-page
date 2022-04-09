@@ -7,10 +7,6 @@ footer {
     background-color: #90D4C5;
 }
 
-.footer-logo {
-    color: #2F7867;
-}
-
 .footer-links {
     width: 100%;
     display: flex;
@@ -21,7 +17,7 @@ footer {
 }
 
 .footer-links a {
-    color: #2F7867;
+    color: hsl(168, 34%, 41%);
     text-decoration: none;
 }
 
@@ -30,4 +26,5 @@ footer {
     flex-wrap: wrap;
     gap: 15px;
     list-style: none;
+    color: hsl(168, 34%, 41%);
 }

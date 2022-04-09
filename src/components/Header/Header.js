@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../../images/logo.svg';
+import Logo from '../../images/logo-header.svg';
 import Arrow from '../../images/icon-arrow-down.svg';
 import './header.css';
 
@@ -26,13 +26,19 @@ const Header = () => {
 					</div>
 					<ul className={`nav-links ${activeNavLinks ? 'change-links' : ''}`}>
 						<li>
-							<a href='#'>About</a>
+							<a className='nav-links-item' href='#'>
+								About
+							</a>
 						</li>
 						<li>
-							<a href='#'>Services</a>
+							<a className='nav-links-item' href='#'>
+								Services
+							</a>
 						</li>
 						<li>
-							<a href='#'>Projects</a>
+							<a className='nav-links-item' href='#'>
+								Projects
+							</a>
 						</li>
 						<li>
 							<a className='contact-btn' href='#'>

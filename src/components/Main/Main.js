@@ -17,7 +17,7 @@ const Main = () => {
 				<div className='col-one'>
 					<img src={Egg} alt='egg' />
 					<div className='col-one-text'>
-						<h4>Transform your brand</h4>
+						<h2>Transform your brand</h2>
 						<p>
 							We are a full-service creative agency specializing in helping
 							brands grow fast. Engage your clients through compelling visuals
@@ -29,7 +29,7 @@ const Main = () => {
 				<div className='col-two'>
 					<img src={Cup} alt='cup' />
 					<div className='col-two-text'>
-						<h4>Stand out to the right audience</h4>
+						<h2>Stand out to the right audience</h2>
 						<p>
 							Using a collaborative formula of designers, researchers,
 							photographers, videographers, and copywriters, we’ll build and
@@ -42,7 +42,7 @@ const Main = () => {
 			<section className='section-two'>
 				<div className='col-three'>
 					<div className='col-three-text'>
-						<h4>Graphic Design</h4>
+						<h2 className='graphic-design-text'>Graphic Design</h2>
 						<p>
 							Great design makes you memorable. We deliver artwork that
 							underscores your brand message and captures potential
@@ -52,7 +52,7 @@ const Main = () => {
 				</div>
 				<div className='col-four'>
 					<div className='col-four-text'>
-						<h4>Photography</h4>
+						<h2 className='photography-text'>Photography</h2>
 						<p>
 							Increase your credibility by getting the most stunning,
 							high-quality photos that improve your business image.
@@ -61,40 +61,40 @@ const Main = () => {
 				</div>
 			</section>
 			<section className='section-three'>
-				<h6 className='testimonials-header'>Client Testimonials</h6>
+				<h2 className='testimonials-header'>Client Testimonials</h2>
 				<div className='single-test-card'>
 					<div>
 						<img src={Emily} alt='client-pic' />
 					</div>
 					<div className='card-text'>
-						<p>
+						<p className='quote-text'>
 							We put our trust in Sunnyside and they delivered, making sure our
 							needs were met and deadlines were always hit.
 						</p>
-						<h5>Emily R.</h5>
-						<p>Marketing Director</p>
+						<h3 className='author'>Emily R.</h3>
+						<p className='author-designation'>Marketing Director</p>
 					</div>
 				</div>
 				<div className='single-test-card'>
 					<img src={Thomas} alt='client-pic' />
 					<div className='card-text'>
-						<p>
+						<p className='quote-text'>
 							Sunnyside's enthusiasm coupled with their keen interest in our
 							brand's success made it a satisfying and enjoyable experience.
 						</p>
-						<h5>Thomas S.</h5>
-						<p>Chief Operating Officer</p>
+						<h3 className='author'>Thomas S.</h3>
+						<p className='author-designation'>Chief Operating Officer</p>
 					</div>
 				</div>
 				<div className='single-test-card'>
 					<img src={Jennie} alt='client-pic' />
 					<div className='card-text'>
-						<p>
+						<p className='quote-text'>
 							Incredible end result! Our sales increased over 400% when we
 							worked with Sunnyside. Highly recommended!
 						</p>
-						<h5>Jennie F.</h5>
-						<p>Business Owner</p>
+						<h3 className='author'>Jennie F.</h3>
+						<p className='author-designation'>Business Owner</p>
 					</div>
 				</div>
 			</section>

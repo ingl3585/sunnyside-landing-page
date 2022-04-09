@@ -1,33 +1,49 @@
 /* First Section (Mobile) */
 
-main .first-section {
+.section-one {
     display: grid;
     grid-template-columns: 1fr;
-    height: 200vh;
 }
 
 .col-one {
     grid-row: 1/2;
 }
 
+.section-one h2 {
+    font-size: 1.875rem;
+    color: hsl(212, 27%, 19%)
+}
+
+.section-one p {
+    font-size: 1rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.section-one a {
+    font-family: 'Fraunces',serif;
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%)
+}
+
 .col-two {
     grid-row: 2/3;
 }
 
-.col-one img, .col-two img {
-    height: 50vh;
-    width: 100vw;
+.section-one img {
+    max-width: 100vw;
 }
 
 .col-one-text, .col-two-text {
-    height: 50vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    margin: 0 50px;
+    gap: 3.125em;
+    margin: 0 3.125em;
 }
 
 /* Second Section (Mobile) */
@@ -41,7 +57,7 @@ main .first-section {
 }
 
 .col-three, .col-four {
-    height: 100vh;
+    height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,6 +74,26 @@ main .first-section {
     padding: 0 1em 8em 1em;
 }
 
+.graphic-design-text {
+    font-size: 1.875rem;
+    color: hsl(167, 40%, 24%)
+}
+
+.col-three p {
+    font-size: 1rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.photography-text {
+    font-size: 1.875rem;
+    color: hsl(198, 62%, 26%)
+}
+
+.col-four p {
+    font-size: 1rem;
+    color: hsl(198, 62%, 26%)
+}
+
 /* Third Section (Mobile) */
 
 .section-three {
@@ -65,11 +101,14 @@ main .first-section {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 50px;
-    margin: 25px;
+    gap: 3.125em;
+    margin: 1.5625em;
 }
 
 .testimonials-header {
+    font-size: 1rem;
+    color: hsl(232, 10%, 55%);
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -78,12 +117,12 @@ main .first-section {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 25px;
+    gap: 1.5625rem;
 }
 
 .single-test-card img {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
 }
 
@@ -93,7 +132,23 @@ main .first-section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 25px;
+    gap: 1.5625em;
+}
+
+.quote-text {
+    font-size: 1rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.author {
+    font-size: 1rem;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+.author-designation {
+    font-size: 0.75rem;
+    color: hsl(210, 4%, 67%);
 }
 
 /* Fourth Section (Mobile) */

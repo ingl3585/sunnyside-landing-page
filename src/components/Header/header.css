@@ -3,8 +3,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    min-height: 100vh;
-    max-width: 100vw;
+    height: 710px;
 }
 
 nav {
@@ -54,7 +53,7 @@ nav {
 }
 
 .change .bar {
-    background-color: black;
+    background-color: hsl(232, 10%, 55%);
 }
 
 .nav-links {
@@ -68,19 +67,23 @@ nav {
 .nav-links li {
     list-style: none;
     padding: 1.25em 0;
+    color: yellow;
 }
 
-.nav-links li a {
-    color: black;
+.nav-links-item {
     text-decoration: none;
+    color: hsl(232, 10%, 55%)
 }
 
 .contact-btn {
     background-color: #FCD702;
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
     padding: 1.15em 1.60em;
     border-radius: 35px;
-    text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .menu-bg {
@@ -97,8 +100,8 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    height: 350px;
-    width: 200px;
+    height: 400px;
+    width: 225px;
     background-color: white;
     border-radius: 110px 0 0 110px;
 }
@@ -123,7 +126,7 @@ nav {
     color: white;
     text-transform: uppercase;
     letter-spacing: 7.5px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 1.25em;
     overflow-wrap: break-word;
 }
