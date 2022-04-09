@@ -1,30 +1,30 @@
 import React, { useState } from 'react';
-import './header.css';
 import Logo from '../../images/logo.svg';
 import Arrow from '../../images/icon-arrow-down.svg';
+import './header.css';
 
 const Header = () => {
-	const [activeMenu, setActiveMenu] = useState('false');
-	const [activeNav, setActiveNav] = useState('false');
-	const [activeMenuBg, setActiveMenuBg] = useState('false');
+	const [activeNav, setActiveNav] = useState(false);
+	const [activeNavLinks, setActiveNavLinks] = useState(false);
+	const [activeNavBg, setActiveNavBg] = useState(false);
 	const onClickMenu = () => {
-		setActiveMenu(!activeMenu);
 		setActiveNav(!activeNav);
-		setActiveMenuBg(!activeMenuBg);
+		setActiveNavLinks(!activeNavLinks);
+		setActiveNavBg(!activeNavBg);
 	};
 	return (
 		<header>
 			<nav>
-				<img src={Logo} alt='sunny-side' />
-				<div className='menu-bar'>
+				<img src={Logo} alt='sunny-side-logo' />
+				<div className='nav-bar'>
 					<div
-						className={`menu ${activeMenu ? 'change' : ''}`}
+						className={`menu ${activeNav ? 'change' : ''}`}
 						onClick={onClickMenu}>
 						<div className='menu-bar-1 bar'></div>
 						<div className='menu-bar-2 bar'></div>
 						<div className='menu-bar-3 bar'></div>
 					</div>
-					<ul className={`nav-list ${activeNav ? 'change' : ''}`}>
+					<ul className={`nav-links ${activeNavLinks ? 'change' : ''}`}>
 						<li>
 							<a href='#'>About</a>
 						</li>
@@ -41,7 +41,7 @@ const Header = () => {
 						</li>
 					</ul>
 				</div>
-				<div className={activeMenuBg ? 'change-bg' : 'menu-bg'}></div>
+				<div className={activeNavBg ? 'change-bg' : 'menu-bg'}></div>
 			</nav>
 			<section className='header-main'>
 				<h1 className='header-headline'>We are creatives</h1>
