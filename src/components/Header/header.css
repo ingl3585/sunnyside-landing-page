@@ -130,3 +130,13 @@ nav {
     padding-bottom: 1.25em;
     overflow-wrap: break-word;
 }
+
+/*
+\\\\\\\\\\\\\\
+Desktop Sizing
+//////////////
+*/
+
+@media screen and (min-width: 600px) {
+    
+}

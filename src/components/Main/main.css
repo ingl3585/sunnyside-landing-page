@@ -3,10 +3,30 @@
 .section-one {
     display: grid;
     grid-template-columns: 1fr;
+    height: 200vh;
 }
 
 .col-one {
     grid-row: 1/2;
+    height: 100vh;
+}
+
+.col-two {
+    grid-row: 2/3;
+    height: 100vh;
+}
+
+.section-one img {
+    height: 40%;
+}
+
+.col-one-text, .col-two-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
 }
 
 .section-one h2 {
@@ -23,29 +43,10 @@
 .section-one a {
     font-family: 'Fraunces',serif;
     font-size: 1rem;
+    color: hsl(212, 27%, 19%);
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    color: hsl(212, 27%, 19%)
-}
-
-.col-two {
-    grid-row: 2/3;
-}
-
-.section-one img {
-    width: 100vw;
-    height: 40vh;
-}
-
-.col-one-text, .col-two-text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    gap: 2.25em;
-    margin: 3.5em 1.5em;
 }
 
 /* Second Section (Mobile) */
@@ -59,20 +60,20 @@
 }
 
 .col-three, .col-four {
-    height: 720px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .col-three-text, .col-four-text {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 1.5em;
     text-align: center;
+    height: 100%;
+    gap: 1.5em;
     padding: 0 1em 6em 1em;
 }
 
@@ -82,7 +83,6 @@
 }
 
 .col-three p {
-    font-size: 1rem;
     color: hsl(167, 40%, 24%);
 }
 
@@ -93,7 +93,6 @@
 }
 
 .col-four p {
-    font-size: 1rem;
     color: hsl(198, 62%, 26%)
 }
 
@@ -109,7 +108,6 @@
 }
 
 .testimonials-header {
-    font-size: 1rem;
     color: hsl(210, 4%, 67%);
     letter-spacing: 3px;
     text-align: center;
@@ -141,7 +139,6 @@
 }
 
 .quote-text {
-    font-size: 1rem;
     color: hsl(232, 10%, 55%);
 }
 
@@ -152,7 +149,6 @@
 }
 
 .author {
-    font-size: 1rem;
     font-weight: 900;
     color: hsl(212, 27%, 19%);
 }
@@ -168,10 +164,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 410px;
+    height: 50vh;
 }
 
 .section-four img {
     height: 100%;
     width: 100%;
 }
+
+
+/*
+\\\\\\\\\\\\\\
+Desktop Sizing
+//////////////
+*/
+
+@media screen and (min-width: 600px) {}
