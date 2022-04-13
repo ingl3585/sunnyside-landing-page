@@ -3,14 +3,15 @@
 .section-one {
     display: flex;
     flex-direction: column;
+    height: 200vh;
 }
 
 .col-one {
-    height: 100vh;
+    height: 50%;
 }
 
 .col-two {
-    height: 100vh;
+    height: 50%;
 }
 
 .col-one-text, .col-two-text {
@@ -19,7 +20,7 @@
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    height: 50vh;
+    height: 50%;
     padding: 2.5em;
 }
 

@@ -18,7 +18,7 @@ footer {
     flex-wrap: wrap;
     list-style: none;
     gap: 4em;
-    padding-bottom: 2.8125em;
+    padding-bottom: 2em;
 }
 
 .footer-links a {
