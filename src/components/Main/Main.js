@@ -1,6 +1,10 @@
 import React from 'react';
 import Egg from '../../images/mobile/image-transform.jpg';
 import Cup from '../../images/mobile/image-stand-out.jpg';
+import GDMobile from '../../images/mobile/image-graphic-design.jpg';
+import GDDesktop from '../../images/desktop/image-graphic-design.jpg';
+import PhotographyMobile from '../../images/mobile/image-photography.jpg';
+import PhotographyDesktop from '../../images/desktop/image-photography.jpg';
 import Emily from '../../images/image-emily.jpg';
 import Thomas from '../../images/image-thomas.jpg';
 import Jennie from '../../images/image-jennie.jpg';
@@ -23,7 +27,9 @@ const Main = () => {
 							brands grow fast. Engage your clients through compelling visuals
 							that do most of the marketing for you.
 						</p>
-						<a href='#/'>Learn More</a>
+						<a className='underline-yellow' href='#/'>
+							Learn More
+						</a>
 					</div>
 				</div>
 				<div className='col-two'>
@@ -35,12 +41,16 @@ const Main = () => {
 							photographers, videographers, and copywriters, we'll build and
 							extend your brand in digital places.
 						</p>
-						<a href='#/'>Learn More</a>
+						<a className='underline-pink' href='#/'>
+							Learn More
+						</a>
 					</div>
 				</div>
 			</section>
 			<section className='section-two'>
 				<div className='col-three'>
+					<img className='gd-mobile' src={GDMobile} alt='' />
+					<img className='gd-desktop' src={GDDesktop} alt='' />
 					<div className='col-three-text'>
 						<h2 className='graphic-design-text'>Graphic Design</h2>
 						<p>
@@ -51,6 +61,12 @@ const Main = () => {
 					</div>
 				</div>
 				<div className='col-four'>
+					<img className='photography-mobile' src={PhotographyMobile} alt='' />
+					<img
+						className='photography-desktop'
+						src={PhotographyDesktop}
+						alt=''
+					/>
 					<div className='col-four-text'>
 						<h2 className='photography-text'>Photography</h2>
 						<p>

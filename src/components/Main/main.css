@@ -45,7 +45,7 @@
     line-height: 1.75;
 }
 
-.section-one a {
+.underline-yellow, .underline-pink {
     font-family: 'Fraunces',serif;
     font-size: 1rem;
     color: hsl(212, 27%, 19%);
@@ -56,31 +56,34 @@
 
 /* Second Section (Mobile) */
 
-.col-three {
-    background: url('../../images/mobile/image-graphic-design.jpg');
-}
-
-.col-four {
-    background: url('../../images/mobile/image-photography.jpg');
+.section-two {
+    height: 200vh;
 }
 
 .col-three, .col-four {
+    position: relative
+}
+
+.gd-desktop, .photography-desktop {
+    display: none;
+}
+
+.gd-mobile, .photography-mobile {
+    display: block;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100vw;
 }
 
 .col-three-text, .col-four-text {
+    position: absolute;
+    top: 62.5%;
+    text-align: center;
+    height: 25vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    gap: 1.5em;
-    line-height: 1.75;
-    padding: 0 1.5em 6.25em 1.5em;
+    justify-content: space-evenly;
+    padding: 0 1em;
+    
 }
 
 .graphic-design-text {
@@ -226,9 +229,6 @@ Desktop Sizing
         align-items: flex-start;
         padding: 10vw;
     }
-    .col-one-text a{
-        text-align: le;
-    }
     .egg-img {
         grid-column: 2/3;
         grid-row: 1/2;
@@ -244,19 +244,58 @@ Desktop Sizing
         align-items: flex-start;
         padding: 10vw;
     }
+    .underline-yellow, .underline-pink {
+        position: relative;
+    }
+    .underline-yellow::after, .underline-pink::after {
+        content: '';
+        position: absolute;
+        height: 10px;
+        width: 110%;
+        left: -5%;
+        bottom: 0;
+        z-index: -1;
+        transition: height 0.4s;
+        border-radius: 15px;
+    }
+    .underline-yellow::after {
+        background-color: #FFD302;
+    }
+    .underline-pink::after {
+        background-color: #FF7E6E;
+    }
+    .underline-yellow:hover::after, .underline-pink:hover::after {
+        height: 100%;
+    }
 
     /* Second Section (Desktop) */
     .section-two {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        height: 75vh;
+    }
+    .gd-desktop, .photography-desktop {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .gd-mobile, .photography-mobile {
+        display: none;
     }
     .col-three {
         grid-column: 1/2;
-        height: 75vh;
+        height: 100%;
+        position: relative;
     }
     .col-four {
         grid-column: 2/3;
-        height: 75vh;
+        height: 100%;
+        position: relative;
+    }
+    .col-three-text, .col-four-text {
+        top: 55%;
+        padding: 0 5.8em;
+        line-height: 1.5;
     }
 
     /* Third Section (Desktop) */

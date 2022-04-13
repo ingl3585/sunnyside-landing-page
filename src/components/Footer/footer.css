@@ -13,12 +13,11 @@ footer {
 
 .footer-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
     gap: 4em;
-    padding-bottom: 2em;
 }
 
 .footer-links a {
@@ -41,10 +40,6 @@ Desktop Sizing
 */
 
 @media screen and (min-width: 768px) {
-    .footer-links {
-        justify-content: center;
-        gap: 3.5em;
-    }
     .footer-links a {
         transition: 0.1s all ease-in-out;
     }

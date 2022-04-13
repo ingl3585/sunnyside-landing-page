@@ -3,7 +3,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 nav {
@@ -118,7 +118,7 @@ nav {
 
 .hero {
     text-align: center;
-    padding-top: 9.5em;
+    padding-top: 15em;
 }
 
 .hero-headline {
@@ -138,6 +138,11 @@ Desktop Sizing
 
 @media screen and (min-width: 768px) {
     header {
+        background: url('../../images//desktop/image-header.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
     }
     nav {
         padding: 1em 2em;
@@ -163,5 +168,12 @@ Desktop Sizing
     .contact-btn:hover {
         background-color: #6ECEFF;
         color: white;
+    }
+    .hero {
+        padding-top: 10em;
+    }
+    .hero-headline {
+        font-size: 3.5rem;
+        padding-bottom: 2.5em;
     }
 }
