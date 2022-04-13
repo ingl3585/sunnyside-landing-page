@@ -2,9 +2,9 @@ header {
     background: url('../../images//mobile/image-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 nav {
@@ -137,6 +137,32 @@ Desktop Sizing
 //////////////
 */
 
-@media screen and (min-width: 600px) {
-    
+@media screen and (min-width: 768px) {
+    header {
+    }
+    nav {
+        padding: 1em 2em;
+    }
+    .menu {
+        display: none;
+    }
+    .nav-links {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        position: static;
+    }
+    .nav-links-item:last-child {
+        padding-right: 5vw;
+        color: white;
+    }
+    .contact-btn {
+        background-color: white;
+        padding: 1em 1.25em;
+        transition: 0.1s all ease-in-out;
+    }
+    .contact-btn:hover {
+        background-color: #6ECEFF;
+        color: white;
+    }
 }

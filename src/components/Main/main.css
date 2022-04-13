@@ -1,23 +1,16 @@
 /* First Section (Mobile) */
 
 .section-one {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 200vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .col-one {
-    grid-row: 1/2;
     height: 100vh;
 }
 
 .col-two {
-    grid-row: 2/3;
     height: 100vh;
-}
-
-.section-one img {
-    height: 40%;
 }
 
 .col-one-text, .col-two-text {
@@ -26,7 +19,18 @@
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    height: 60%;
+    height: 50vh;
+    padding: 2.5em;
+}
+
+.egg-img {
+    height: 50vh;
+    width: 100vw;
+}
+
+.cup-img {
+    height: 50vh;
+    width: 100vw;
 }
 
 .section-one h2 {
@@ -38,6 +42,7 @@
 .section-one p {
     font-size: 1rem;
     color: hsl(232, 10%, 55%);
+    line-height: 1.75;
 }
 
 .section-one a {
@@ -74,7 +79,8 @@
     text-align: center;
     height: 100%;
     gap: 1.5em;
-    padding: 0 1em 6em 1em;
+    line-height: 1.75;
+    padding: 0 1.5em 6.25em 1.5em;
 }
 
 .graphic-design-text {
@@ -101,18 +107,26 @@
 .section-three {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 3.125em;
-    margin: 3em 1.5em;
+    justify-content: space-evenly;
+    gap: 3.75em;
+    margin: 5em 3em;
 }
 
 .testimonials-header {
+    font-size: 1rem;
     color: hsl(210, 4%, 67%);
     letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
 }
 
 .single-test-card {
@@ -140,6 +154,7 @@
 
 .quote-text {
     color: hsl(232, 10%, 55%);
+    line-height: 1.75;
 }
 
 .author-section {
@@ -154,7 +169,7 @@
 }
 
 .author-designation {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: hsl(210, 4%, 67%);
 }
 
@@ -164,7 +179,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 50vh;
 }
 
 .section-four img {
@@ -172,11 +186,93 @@
     width: 100%;
 }
 
-
 /*
 \\\\\\\\\\\\\\
 Desktop Sizing
 //////////////
 */
 
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 768px) {
+    /* First Section (Desktop) */
+    .section-one {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 100vh;
+    }
+    .col-one {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 50vh;
+    }
+    .col-two {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 50vh;
+    }
+    .section-one img {
+        display: block;
+        width: 100%;
+    }
+    .col-one-text {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .egg-img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .cup-img {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .col-two-text {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    /* Second Section (Desktop) */
+    .section-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .col-three {
+        grid-column: 1/2;
+        height: 75vh;
+    }
+    .col-four {
+        grid-column: 2/3;
+        height: 75vh;
+    }
+
+    /* Third Section (Desktop) */
+    .section-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15em;
+        gap: 2em;
+        margin: 0;
+    }
+    .card-section {
+        flex-direction: row;
+        gap: 0;
+    }
+    .single-test-card {
+        padding: 3em;
+    }
+
+    /* Fourth Section (Desktop) */
+    .section-four {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .section-four img {
+        width: 100%;
+    }
+}

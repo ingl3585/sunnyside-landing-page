@@ -3,7 +3,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
     background-color: #90D4C5;
 }
 
@@ -15,9 +15,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
     flex-wrap: wrap;
     list-style: none;
+    gap: 4em;
+    padding-bottom: 2.8125em;
 }
 
 .footer-links a {
@@ -39,4 +40,22 @@ Desktop Sizing
 //////////////
 */
 
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 768px) {
+    .footer-links {
+        justify-content: center;
+        gap: 3.5em;
+    }
+    .footer-links a {
+        transition: 0.1s all ease-in-out;
+    }
+    .footer-links a:hover {
+        color: white;
+    }
+    .social-links {
+        transition: 0.1s all ease-in-out;
+    }
+    .social-links:hover {
+        cursor: pointer;
+        fill: #fff;
+    }
+}
