@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/sunnyside-landing-page/static/css/main.b79b16cd.css",
-    "main.js": "/sunnyside-landing-page/static/js/main.00d1eba5.js",
-    "static/media/image-graphic-design.jpg": "/sunnyside-landing-page/static/media/image-graphic-design.09c20c2d3df10b4e76a2.jpg",
-    "static/media/image-photography.jpg": "/sunnyside-landing-page/static/media/image-photography.26df83b3c32ef637abbb.jpg",
-    "static/media/image-gallery-cone.jpg": "/sunnyside-landing-page/static/media/image-gallery-cone.fb0906a72ac9ccbc73df.jpg",
+    "main.css": "/sunnyside-landing-page/static/css/main.840989a6.css",
+    "main.js": "/sunnyside-landing-page/static/js/main.c7ac660d.js",
     "static/media/image-header.jpg": "/sunnyside-landing-page/static/media/image-header.9167cda0c72b56b2cda5.jpg",
+    "static/media/image-graphic-design.jpg": "/sunnyside-landing-page/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/sunnyside-landing-page/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/image-gallery-cone.jpg": "/sunnyside-landing-page/static/media/image-gallery-cone.fb0906a72ac9ccbc73df.jpg",
     "static/media/image-gallery-orange.jpg": "/sunnyside-landing-page/static/media/image-gallery-orange.373d43f1f42a447ed9a6.jpg",
     "static/media/image-gallery-sugar-cubes.jpg": "/sunnyside-landing-page/static/media/image-gallery-sugar-cubes.fefc3841f885fca27c53.jpg",
     "static/media/logo-footer.svg": "/sunnyside-landing-page/static/media/logo-footer.9be702bcb4ba8ade3585f574c5e67d82.svg",
@@ -16,11 +16,11 @@
     "static/media/icon-twitter.svg": "/sunnyside-landing-page/static/media/icon-twitter.23df5d421d6e70c35715be06e375f403.svg",
     "static/media/icon-facebook.svg": "/sunnyside-landing-page/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
     "static/media/icon-arrow-down.svg": "/sunnyside-landing-page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
-    "main.b79b16cd.css.map": "/sunnyside-landing-page/static/css/main.b79b16cd.css.map",
-    "main.00d1eba5.js.map": "/sunnyside-landing-page/static/js/main.00d1eba5.js.map"
+    "main.840989a6.css.map": "/sunnyside-landing-page/static/css/main.840989a6.css.map",
+    "main.c7ac660d.js.map": "/sunnyside-landing-page/static/js/main.c7ac660d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b79b16cd.css",
-    "static/js/main.00d1eba5.js"
+    "static/css/main.840989a6.css",
+    "static/js/main.c7ac660d.js"
   ]
 }
