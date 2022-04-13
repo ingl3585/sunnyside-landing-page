@@ -136,7 +136,7 @@ Desktop Sizing
 //////////////
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 821px) {
     header {
         background: url('../../images//desktop/image-header.jpg');
         background-size: cover;

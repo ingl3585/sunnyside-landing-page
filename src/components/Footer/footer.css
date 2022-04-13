@@ -39,7 +39,7 @@ Desktop Sizing
 //////////////
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 821px) {
     .footer-links a {
         transition: 0.1s all ease-in-out;
     }
