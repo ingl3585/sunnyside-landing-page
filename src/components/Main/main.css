@@ -21,6 +21,7 @@
     justify-content: space-evenly;
     text-align: center;
     height: 50%;
+    gap: 1em;
     padding: 2.5em;
 }
 
