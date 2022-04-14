@@ -1,3 +1,9 @@
+/*
+\\\\\\\\\\\\\\
+Mobile Sizing
+//////////////
+*/
+
 /* First Section (Mobile) */
 
 .section-one {
@@ -6,15 +12,11 @@
     height: 200vh;
 }
 
-.col-one {
+.column-one, .column-two {
     height: 50%;
-}
+}  
 
-.col-two {
-    height: 50%;
-}
-
-.col-one-text, .col-two-text {
+.column-one-text, .column-two-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,12 +27,7 @@
     padding: 2.5em;
 }
 
-.egg-img {
-    height: 50vh;
-    width: 100vw;
-}
-
-.cup-img {
+.egg-img, .cup-img {
     height: 50vh;
     width: 100vw;
 }
@@ -62,7 +59,7 @@
     height: 200vh;
 }
 
-.col-three, .col-four {
+.column-three, .column-four {
     position: relative
 }
 
@@ -76,7 +73,7 @@
     width: 100vw;
 }
 
-.col-three-text, .col-four-text {
+.column-three-text, .column-four-text {
     position: absolute;
     top: 66%;
     text-align: center;
@@ -88,22 +85,22 @@
     
 }
 
-.graphic-design-text {
+.graphic-design-title {
     font-size: 1.875rem;
     color: hsl(167, 40%, 24%)
 }
 
-.col-three p {
-    color: hsl(167, 40%, 24%);
-}
-
-.photography-text {
+.photography-title {
     font-size: 1.875rem;
     color: hsl(198, 62%, 26%);
     word-break: break-all;
 }
 
-.col-four p {
+.column-three p {
+    color: hsl(167, 40%, 24%);
+}
+
+.column-four p {
     color: hsl(198, 62%, 26%)
 }
 
@@ -117,10 +114,10 @@
     margin: 5em 3em;
 }
 
-.testimonials-header {
+.testimonials-title {
     font-size: 1rem;
-    color: hsl(210, 4%, 67%);
-    letter-spacing: 3px;
+    color: hsl(206, 22%, 59%);
+    letter-spacing: 0.1875rem;
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
@@ -134,7 +131,7 @@
     gap: 4em;
 }
 
-.single-test-card {
+.single-testimonial-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -142,7 +139,7 @@
     gap: 1.5rem;
 }
 
-.single-test-card img {
+.single-testimonial-card img {
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -205,52 +202,59 @@ Desktop Sizing
         grid-template-rows: repeat(2, 1fr);
         height: 125vh;
     }
-    .col-one {
+
+    .column-one {
         grid-column: 1/3;
         grid-row: 1/2;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: 62.5vh;
     }
-    .col-two {
+    .column-two {
         grid-column: 1/3;
         grid-row: 2/3;
+    }
+
+    .column-one, .column-two {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         height: 62.5vh;
     }
+
     .section-one img {
         display: block;
         width: 100%;
         height: 62.5vh;
     }
-    .col-one-text {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        height: 100%;
-        text-align: left;
-        align-items: flex-start;
-        padding: 10vw;
-    }
+
     .egg-img {
         grid-column: 2/3;
         grid-row: 1/2;
     }
+
     .cup-img {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    .col-two-text {
+
+    .column-one-text {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .column-two-text {
         grid-column: 2/3;
         grid-row: 1/2;
+    }
+
+    .column-one-text, .column-two-text {
         height: 100%;
         text-align: left;
         align-items: flex-start;
         padding: 10vw;
     }
+
     .underline-yellow, .underline-pink {
         position: relative;
     }
+
     .underline-yellow::after, .underline-pink::after {
         content: '';
         position: absolute;
@@ -262,12 +266,15 @@ Desktop Sizing
         transition: height 0.4s;
         border-radius: 15px;
     }
+
     .underline-yellow::after {
         background-color: #FFD302;
     }
+
     .underline-pink::after {
         background-color: #FF7E6E;
     }
+
     .underline-yellow:hover::after, .underline-pink:hover::after {
         height: 100%;
     }
@@ -278,25 +285,30 @@ Desktop Sizing
         grid-template-columns: repeat(2, 1fr);
         height: 75vh;
     }
+
     .gd-desktop, .photography-desktop {
         display: block;
         height: 100%;
         width: 100%;
     }
+
     .gd-mobile, .photography-mobile {
         display: none;
     }
-    .col-three {
+
+    .column-three {
         grid-column: 1/2;
-        height: 100%;
-        position: relative;
     }
-    .col-four {
+
+    .column-four {
         grid-column: 2/3;
+    }
+    .column-three, .column-four {
         height: 100%;
         position: relative;
     }
-    .col-three-text, .col-four-text {
+
+    .column-three-text, .column-four-text {
         top: 55%;
         padding: 0 5.8em;
         line-height: 1.5;
@@ -308,13 +320,15 @@ Desktop Sizing
         gap: 0;
         margin: 0;
     }
+
     .card-section {
         flex-direction: row;
         justify-content: center;
         gap: 0;
         padding: 0 1em;
     }
-    .single-test-card {
+
+    .single-testimonial-card {
         gap: 3em;
         padding: 0.5em;
     }
@@ -329,13 +343,14 @@ Desktop Sizing
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
     }
+
     .section-four img {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .testimonials-header {
+    .testimonials-title {
         font-size: 1.4rem;
     }
     .card-section {

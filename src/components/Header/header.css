@@ -1,3 +1,9 @@
+/*
+\\\\\\\\\\\\\\
+Mobile Sizing
+//////////////
+*/
+
 header {
     background: url('../../images//mobile/image-header.jpg');
     background-size: cover;
@@ -14,7 +20,7 @@ nav {
     padding: 1.875em 1.5625em;
 }
 
-.nav-bar {
+.hamburger-menu { 
     z-index: 2;
 }
 
@@ -31,7 +37,7 @@ nav {
     transform: translateY(4px);
 }
 
-.bar {
+.menu-bars {
     display: block;
     height: 5px;
     width: 90%;
@@ -52,7 +58,7 @@ nav {
     transform: translateY(-6px) rotateZ(45deg);
 }
 
-.change .bar {
+.change .menu-bars {
     background-color: hsl(232, 10%, 55%);
 }
 
@@ -144,34 +150,42 @@ Desktop Sizing
         background-position: center;
         min-height: 100vh;
     }
+
     nav {
         padding: 1em 2em;
     }
+
     .menu {
         display: none;
     }
+
     .nav-links {
         display: block;
         display: flex;
         justify-content: space-evenly;
         position: static;
     }
+
     .nav-links-item:last-child {
-        padding-right: 5vw;
+        padding-right: 5.25em;
         color: white;
     }
+
     .contact-btn {
         background-color: white;
         padding: 1em 1.25em;
         transition: 0.1s all ease-in-out;
     }
+
     .contact-btn:hover {
         background-color: #6ECEFF;
         color: white;
     }
+
     .hero {
         padding-top: 10em;
     }
+    
     .hero-headline {
         font-size: 3.5rem;
         padding-bottom: 2.5em;

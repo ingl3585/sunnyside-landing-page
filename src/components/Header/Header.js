@@ -16,13 +16,13 @@ const Header = () => {
 		<header>
 			<nav>
 				<img src={Logo} alt='sunny-side-logo' />
-				<div className='nav-bar'>
+				<div className='hamburger-menu'>
 					<div
 						className={`menu ${activeNav ? 'change' : ''}`}
 						onClick={onClickMenu}>
-						<div className='menu-bar-1 bar'></div>
-						<div className='menu-bar-2 bar'></div>
-						<div className='menu-bar-3 bar'></div>
+						<div className='menu-bar-1 menu-bars'></div>
+						<div className='menu-bar-2 menu-bars'></div>
+						<div className='menu-bar-3 menu-bars'></div>
 					</div>
 					<ul className={`nav-links ${activeNavLinks ? 'change-links' : ''}`}>
 						<li>

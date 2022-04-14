@@ -1,26 +1,28 @@
 import React from 'react';
-import Egg from '../../images/mobile/image-transform.jpg';
-import Cup from '../../images/mobile/image-stand-out.jpg';
-import GDMobile from '../../images/mobile/image-graphic-design.jpg';
-import GDDesktop from '../../images/desktop/image-graphic-design.jpg';
-import PhotographyMobile from '../../images/mobile/image-photography.jpg';
-import PhotographyDesktop from '../../images/desktop/image-photography.jpg';
-import Emily from '../../images/image-emily.jpg';
-import Thomas from '../../images/image-thomas.jpg';
-import Jennie from '../../images/image-jennie.jpg';
-import Milk from '../../images/mobile/image-gallery-milkbottles.jpg';
-import Orange from '../../images/mobile/image-gallery-orange.jpg';
-import Cone from '../../images/mobile/image-gallery-cone.jpg';
-import Sugar from '../../images/mobile/image-gallery-sugar-cubes.jpg';
+import {
+	Egg,
+	Cup,
+	GDMobile,
+	GDDesktop,
+	PhotographyMobile,
+	PhotographyDesktop,
+	Emily,
+	Thomas,
+	Jennie,
+	Milk,
+	Orange,
+	Cone,
+	Sugar,
+} from './index';
 import './main.css';
 
 const Main = () => {
 	return (
 		<main>
 			<section className='section-one'>
-				<div className='col-one'>
+				<div className='column-one'>
 					<img className='egg-img' src={Egg} alt='egg' />
-					<div className='col-one-text'>
+					<div className='column-one-text'>
 						<h2>Transform your brand</h2>
 						<p>
 							We are a full-service creative agency specializing in helping
@@ -32,9 +34,9 @@ const Main = () => {
 						</a>
 					</div>
 				</div>
-				<div className='col-two'>
+				<div className='column-two'>
 					<img className='cup-img' src={Cup} alt='cup' />
-					<div className='col-two-text'>
+					<div className='column-two-text'>
 						<h2>Stand out to the right audience</h2>
 						<p>
 							Using a collaborative formula of designers, researchers,
@@ -48,11 +50,11 @@ const Main = () => {
 				</div>
 			</section>
 			<section className='section-two'>
-				<div className='col-three'>
+				<div className='column-three'>
 					<img className='gd-mobile' src={GDMobile} alt='' />
 					<img className='gd-desktop' src={GDDesktop} alt='' />
-					<div className='col-three-text'>
-						<h2 className='graphic-design-text'>Graphic Design</h2>
+					<div className='column-three-text'>
+						<h2 className='graphic-design-title'>Graphic Design</h2>
 						<p>
 							Great design makes you memorable. We deliver artwork that
 							underscores your brand message and captures potential clients'
@@ -60,15 +62,15 @@ const Main = () => {
 						</p>
 					</div>
 				</div>
-				<div className='col-four'>
+				<div className='column-four'>
 					<img className='photography-mobile' src={PhotographyMobile} alt='' />
 					<img
 						className='photography-desktop'
 						src={PhotographyDesktop}
 						alt=''
 					/>
-					<div className='col-four-text'>
-						<h2 className='photography-text'>Photography</h2>
+					<div className='column-four-text'>
+						<h2 className='photography-title'>Photography</h2>
 						<p>
 							Increase your credibility by getting the most stunning,
 							high-quality photos that improve your business image.
@@ -77,12 +79,10 @@ const Main = () => {
 				</div>
 			</section>
 			<section className='section-three'>
-				<h2 className='testimonials-header'>Client Testimonials</h2>
+				<h2 className='testimonials-title'>Client Testimonials</h2>
 				<div className='card-section'>
-					<div className='single-test-card'>
-						<div>
-							<img src={Emily} alt='client-pic' />
-						</div>
+					<div className='single-testimonial-card'>
+						<img src={Emily} alt='client-pic' />
 						<div className='card-text'>
 							<p className='quote-text'>
 								We put our trust in Sunnyside and they delivered, making sure
@@ -94,7 +94,7 @@ const Main = () => {
 							</div>
 						</div>
 					</div>
-					<div className='single-test-card'>
+					<div className='single-testimonial-card'>
 						<img src={Thomas} alt='client-pic' />
 						<div className='card-text'>
 							<p className='quote-text'>
@@ -107,7 +107,7 @@ const Main = () => {
 							</div>
 						</div>
 					</div>
-					<div className='single-test-card'>
+					<div className='single-testimonial-card'>
 						<img src={Jennie} alt='client-pic' />
 						<div className='card-text'>
 							<p className='quote-text'>

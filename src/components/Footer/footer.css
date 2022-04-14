@@ -1,3 +1,9 @@
+/*
+\\\\\\\\\\\\\\
+Mobile Sizing
+//////////////
+*/
+
 footer {
     display: flex;
     flex-direction: column;
@@ -45,12 +51,5 @@ Desktop Sizing
     }
     .footer-links a:hover {
         color: white;
-    }
-    .social-links {
-        transition: 0.1s all ease-in-out;
-    }
-    .social-links:hover {
-        cursor: pointer;
-        fill: #fff;
     }
 }

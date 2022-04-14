@@ -1,0 +1,13 @@
+export { default as Egg } from '../../images/mobile/image-transform.jpg';
+export { default as Cup } from '../../images/mobile/image-stand-out.jpg';
+export { default as GDMobile } from '../../images/mobile/image-graphic-design.jpg';
+export { default as GDDesktop } from '../../images/desktop/image-graphic-design.jpg';
+export { default as PhotographyMobile } from '../../images/mobile/image-photography.jpg';
+export { default as PhotographyDesktop } from '../../images/desktop/image-photography.jpg';
+export { default as Emily } from '../../images/image-emily.jpg';
+export { default as Thomas } from '../../images/image-thomas.jpg';
+export { default as Jennie } from '../../images/image-jennie.jpg';
+export { default as Milk } from '../../images/mobile/image-gallery-milkbottles.jpg';
+export { default as Orange } from '../../images/mobile/image-gallery-orange.jpg';
+export { default as Cone } from '../../images/mobile/image-gallery-cone.jpg';
+export { default as Sugar } from '../../images/mobile/image-gallery-sugar-cubes.jpg';
