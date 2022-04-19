@@ -248,7 +248,8 @@ Desktop Sizing
         height: 100%;
         text-align: left;
         align-items: flex-start;
-        padding: 10vw;
+        justify-content: center;
+        padding: 0 6em;
     }
 
     .underline-yellow, .underline-pink {
@@ -281,9 +282,9 @@ Desktop Sizing
 
     /* Second Section (Desktop) */
     .section-two {
+        height: 50%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 75vh;
     }
 
     .gd-desktop, .photography-desktop {
@@ -316,7 +317,8 @@ Desktop Sizing
 
     /* Third Section (Desktop) */
     .section-three {
-        height: 90vh;
+        min-height: 100vh;
+        justify-content: space-evenly;
         gap: 0;
         margin: 0;
     }
