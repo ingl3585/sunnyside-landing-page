@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sunnyside-landing-page/static/css/main.934c3da1.css",
+    "main.css": "/sunnyside-landing-page/static/css/main.7a4149c0.css",
     "main.js": "/sunnyside-landing-page/static/js/main.aeeb68eb.js",
     "static/media/image-header.jpg": "/sunnyside-landing-page/static/media/image-header.9167cda0c72b56b2cda5.jpg",
     "static/media/image-graphic-design.jpg": "/sunnyside-landing-page/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
@@ -16,11 +16,11 @@
     "static/media/icon-twitter.svg": "/sunnyside-landing-page/static/media/icon-twitter.23df5d421d6e70c35715be06e375f403.svg",
     "static/media/icon-facebook.svg": "/sunnyside-landing-page/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
     "static/media/icon-arrow-down.svg": "/sunnyside-landing-page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
-    "main.934c3da1.css.map": "/sunnyside-landing-page/static/css/main.934c3da1.css.map",
+    "main.7a4149c0.css.map": "/sunnyside-landing-page/static/css/main.7a4149c0.css.map",
     "main.aeeb68eb.js.map": "/sunnyside-landing-page/static/js/main.aeeb68eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.934c3da1.css",
+    "static/css/main.7a4149c0.css",
     "static/js/main.aeeb68eb.js"
   ]
 }
